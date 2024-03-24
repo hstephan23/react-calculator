@@ -40,3 +40,133 @@
 .read-the-docs {
   color: #888;
 }
+
+.AC {
+  grid-area: AC;
+}
+
+.plusminus {
+  grid-area: plusminus;
+}
+
+.percent {
+  grid-area: percent;
+}
+
+.divide {
+  grid-area: divide;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.multiply {
+  grid-area: multiply;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.minus {
+  grid-area: minus;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.plus {
+  grid-area: plus;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.decimal {
+  grid-area: decimal;
+}
+
+.equal {
+  grid-area: equal;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  grid-template-areas: 
+    "AC plusminus percent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus" 
+    "zero zero decimal equal";
+}
+
+.AC, 
+.plusminus, 
+.percent {
+  border-radius: 50%;
+  height: 60px;
+  background-color: gainsboro;
+  color: black;
+} 
+
+.divide,  
+.multiply, 
+.minus,  
+.plus,  
+.equal {
+  border-radius: 50%;
+  height: 60px;
+  background-color: orange;
+  color: white;
+}
+
+.seven, 
+.eight, 
+.nine,
+.four, 
+.five,
+.six,
+.one, 
+.two, 
+.three,
+.zero,
+.decimal{
+  border-radius: 50%;
+  height: 60px;
+  background-color: rgb(107, 106, 106);
+  color: white;
+}
+
+.zero {
+  border-radius: 45%;
+}
